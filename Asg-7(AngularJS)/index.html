@@ -1,0 +1,73 @@
+<head>
+  <title>Simple Invoicing - Built with AngularJS by Rohan Arihant</title>
+  <meta charset='utf-8'>
+  <meta name="description" content="AngularJS and Angular Code Example for creating Invoices and Invoicing Application">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="cont">
+  <div class="container" width="800px" id="invoice">
+    <div class="row">
+      <div class="col-xs-12 heading">
+        <strong>Billing System</strong>
+      </div>
+    </div>
+
+  </div>
+  <div class="main1">
+    <div="customer"><select ng-init="currencySymbol=currency_symbol[0]" ng-model="currencySymbol" ng-options="currency.name+' '+currency.currency for currency in currency_symbol"></select></div>
+  </div>
+  <div class="main2">
+    <table border=1 width=100%>
+      <th></th>
+      <th>Description</th>
+      <th>Quantity</th>
+      <th>Cost{{' '+currencySymbol.currency}}</th>
+      <th>Total</th>
+      <tr ng-repeat="item in invoice.items">
+        <td text-align="center"><a class="btn" href="" ng-click="removeItem()"><strong>[x]</strong></a></td>
+        <td><input type="text" ng-model="item.description" placeholder="Description"></td>
+        <td><input type="number" ng-model="item.quentity" placeholder="10"></td>
+        <td><input type="number" ng-model="item.cost" placeholder="10"></td>
+        <td placeholder="0">{{item.quentity*item.cost}}</td>
+      </tr>
+      <tr>
+        <td text-align="center"><a class="btn" style="background-color:green;" href ng-click="addItem()">[+]</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td text-align="center"></td>
+        <td></td>
+        <td></td>
+        <td>Sub Total:</td>
+        <td>
+          <p>{{subTotal()}}</p>
+        </td>
+      </tr>
+      <tr>
+        <td text-align="center"></td>
+        <td></td>
+        <td></td>
+        <td>Tax:<input type="number" ng-model="invoice.tax"></td>
+        <td>
+          <p>{{calcuteTax()}}</p>
+        </td>
+      </tr>
+      <tr>
+        <td text-align="center"></td>
+        <td></td>
+        <td></td>
+        <td>Grand Total:</td>
+        <td>
+          <p>{{grandTotal()}}</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>

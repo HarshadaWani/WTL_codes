@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<catalog>
+   
+   <book>
+    <title>The Hate You Give</title>
+    <author>Angie Thomas</author>
+    <country>USA</country>
+    <price>300</price>
+    <yearofbook>2017</yearofbook>
+   </book>
+
+   <book>
+    <title>Turtles All the Way Down</title>
+    <author>John Green</author>
+    <country>USA</country>
+    <price>450</price>
+    <yearofbook>2017</yearofbook>    
+   </book>
+   
+   <book>
+    <title>Malgudi Days</title>
+    <author>RK Narayan</author>
+    <country>India</country>
+    <price>250</price>
+    <yearofbook>1943</yearofbook>   
+   </book>
+
+   <book>
+    <title>The God of Small things</title>
+    <author>Arundhati Roy</author>
+    <country>India</country>
+    <price>300</price>
+    <yearofbook>1997</yearofbook>   
+   </book>
+
+   <book>
+    <title>Flowers In the Mirror</title>
+    <author>Li Ruzhen</author>
+    <country>China</country>
+    <price>500</price>
+    <yearofbook>1827</yearofbook>
+   </book>
+
+   <book>
+    <title>Kafka on the Shore</title>
+    <author>Haruki Murakami</author>
+    <country>Japan</country>
+    <price>450</price>
+    <yearofbook>2002</yearofbook>
+   </book>
+
+   <book>
+    <title>Legend of Condor Heroes</title>
+    <author>Jin Yong</author>
+    <country>Hong Kong, China</country>
+    <price>600</price>
+    <yearofbook>1957</yearofbook>
+   </book>
+
+   <book>
+    <title>The Return of Condor Heroes</title>
+    <author>Jin Yong</author>
+    <country>Hong Kong, China</country>
+    <price>600</price>
+    <yearofbook>1959</yearofbook>
+   </book>
+
+   <book>
+    <title>The Heaven Sword and Dragon Saber</title>
+    <author>Jin Yong</author>
+    <country>Hong Kong, China</country>
+    <price>600</price>
+    <yearofbook>1961</yearofbook>
+   </book>
+
+   <book>
+    <title>The Lord of the Rings</title>
+    <author>J. R. R. Tolkien</author>
+    <country>UK</country>
+    <price>800</price>
+    <yearofbook>1954</yearofbook>
+   </book>
+
+   <book>
+    <title>Dune</title>
+    <author>Frank Herbert</author>
+    <country>USA</country>
+    <price>850</price>
+    <yearofbook>1965</yearofbook>
+   </book>
+
+   <book>
+    <title>1984</title>
+    <author>George Orwell</author>
+    <country>UK</country>
+    <price>350</price>
+    <yearofbook>1949</yearofbook>
+   </book>
+
+   <book>
+    <title>Do Androids Dream of Electric Sheep?</title>
+    <author>Philip K. Dick</author>
+    <country>USA</country>
+    <price>400</price>
+    <yearofbook>1968</yearofbook>
+   </book>
+
+   <book>
+    <title>A Wizard of Earthsea</title>
+    <author>Ursula K. Le Guin</author>
+    <country>USA</country>
+    <price>550</price>
+    <yearofbook>1968</yearofbook>
+   </book>
+
+   <book>
+    <title>Kindred</title>
+    <author>Octavia E. Butler</author>
+    <country>USA</country>
+    <price>450</price>
+    <yearofbook>1979</yearofbook>
+   </book>
+
+   <book>
+    <title>Pride and Prejudice</title>
+    <author>Jane Austen</author>
+    <country>UK</country>
+    <price>250</price>
+    <yearofbook>1813</yearofbook>
+   </book>
+
+   <book>
+    <title>Frankenstein</title>
+    <author>Mary Shelly</author>
+    <country>UK</country>
+    <price>600</price>
+    <yearofbook>1818</yearofbook>
+   </book>
+
+   <book>
+    <title>Latitudes of Longing</title>
+    <author>Shubhangi Swarup</author>
+    <country>India</country>
+    <price>450</price>
+    <yearofbook>2018</yearofbook>
+   </book>
+
+   <book>
+    <title>Yuganta: The End of an Epoch</title>
+    <author>Irawati Karve</author>
+    <country>India</country>
+    <price>250</price>
+    <yearofbook>1967</yearofbook>
+   </book>
+
+   <book>
+    <title>One Hundred Years of Solitude</title>
+    <author>Gabriel Gracía Márquez</author>
+    <country>Colombia</country>
+    <price>425</price>
+    <yearofbook>1967</yearofbook>
+   </book>
+
+   <book>
+    <title>Midnight's Children</title>
+    <author>Salman Rushdie</author>
+    <country>India/UK</country>
+    <price>400</price>
+    <yearofbook>1981</yearofbook>
+   </book>
+
+   <book>
+    <title>Six of Crows</title>
+    <author>Leigh Bardugo</author>
+    <country>USA</country>
+    <price>700</price>
+    <yearofbook>2015</yearofbook>
+   </book>
+
+   <book>
+    <title>Born a Crime</title>
+    <author>Trevor Noah</author>
+    <country>South Africa/USA</country>
+    <price>350</price>
+    <yearofbook>2016</yearofbook>
+   </book>
+
+   <book>
+    <title>Children of Blood and Bone</title>
+    <author>Tomi Adeyemi</author>
+    <country>USA</country>
+    <price>400</price>
+    <yearofbook>2018</yearofbook>
+   </book>
+
+   <book>
+    <title>The Fifth Season</title>
+    <author>N. K. Jemsin</author>
+    <country>USA</country>
+    <price>700</price>
+    <yearofbook>2015</yearofbook>
+   </book>
+
+   <book>
+    <title>Circe</title>
+    <author>Madeline Miller</author>
+    <country>USA</country>
+    <price>500</price>
+    <yearofbook>2018</yearofbook>
+   </book>
+
+   <book>
+    <title>Pachinko</title>
+    <author>Min Jin Lee</author>
+    <country>South Korea</country>
+    <price>450</price>
+    <yearofbook>2017</yearofbook>
+   </book>
+
+
+
+
+
+
+
+
+
+
+
+</catalog>
+
